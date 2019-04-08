@@ -1,0 +1,124 @@
+.page {
+    max-width: 1200px;
+    margin: 10px auto 20px;
+    padding-bottom: 30px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    border: 1px solid rgb(167, 167, 167);
+}
+
+.comparing {
+    display: flex;
+    justify-content: center; 
+    flex-grow: 1;
+    color: rgb(24, 19, 19);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Блочная верстка */
+
+.block {
+    display: inline-block;
+    padding: 0;
+    margin: 10px;
+
+}
+
+.block__item  {
+    float: left;
+    width: 250px;
+    margin: 10px;
+    box-sizing: border-box;
+
+}
+
+.block__title {
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    background-color: rgb(4, 16, 85);
+    margin: 0;
+    padding: 10px 0;
+    border-radius: 4px 4px 0 0;
+}
+
+.block__illustration {
+    width: 250px;
+    height: 100px;
+    background-color: rgb(189, 231, 236);
+    border-radius: 0 0 4px 4px;
+}
+
+@media (min-width: 720px)
+.block__item {
+    width: 25%;
+}
+
+/* Flexbox верстка */
+.flex {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap; 
+    justify-content: center;
+    
+}
+
+.flex__item {
+    margin: 10px;   
+
+
+}
+.flex__title {
+    width: 250px;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    background-color: rgb(38, 4, 51);
+    margin: 0;
+    padding: 10px 0;
+    border-radius: 4px 4px 0 0;
+}
+
+.flex__illustration {
+    width: 250px;
+    height: 100px;
+    background-color:  rgb(231, 225, 142); 
+    border-radius: 0 0 4px 4px;  
+}
+
+/* Пример применения свойства flex-grow */
+.grow {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap; 
+    justify-content: center;
+    margin: 0 40px;
+
+}
+
+.grow__item {
+    height: 150px;
+    background-color: bisque;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.size_1 {
+    flex-grow: 1;
+    min-width: 100px;
+    max-width: 150px;
+}
+
+.size_2 {
+    flex-grow: 2;
+    min-width: 200px;
+    max-width: 300px;
+}
+
+.size_3 {
+    flex-grow: 3;
+    min-width: 300px;
+    max-width: 450px;
+
+}
