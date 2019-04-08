@@ -22,12 +22,12 @@
     display: inline-block;
     padding: 0;
     margin: 10px;
-
 }
 
 .block__item  {
     float: left;
     margin: 10px;
+    width: 250px;
     box-sizing: border-box;
 }
 
