@@ -31,14 +31,6 @@
     box-sizing: border-box;
 }
 
-.type_1 {
-    width: 30%;
-}
-
-.type_2 {
-    width: 60%;
-}
-
 .block__title {
     font-size: 25px;
     color: #fff;
